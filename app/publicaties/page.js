@@ -170,16 +170,127 @@ export default function Publicaties() {
         </div>
       </Section>
 
-      {/* Reacties Section - Placeholder */}
+      {/* Reacties Section */}
       <Section variant="default" id="reacties">
         <div className="reacties-section">
           <h2 className="section-title">
             Reacties op "De nootjes van het huwelijk"
           </h2>
           <div className="separator-line"></div>
-          <p className="reacties-placeholder">
-            Reacties worden binnenkort toegevoegd...
+          <p className="reacties-intro">
+            Sinds het boek in 2006 verscheen, ontving Aysel talloze
+            hartverwarmende reacties van lezers die geraakt zijn door haar
+            verhaal.
           </p>
+
+          <div className="reacties-grid">
+            <div className="reactie-card">
+              <h3 className="reactie-author">Loes</h3>
+              <p className="reactie-text">
+                Beste Aysel, ik heb je boek deze week uitgelezen (in 3 dagen
+                verslonden) en aan het einde haakte ik bijna af. Niet omdat het
+                niet aangrijpend was. Nee, juist omdat het zo intens grauw,
+                troosteloos en ontmoedigend voelde dat ik het haast niet aankon
+                om door te lezen. En jij hebt dat allemaal zelf doorstaan! [...]
+                Toch wil ik wel zeggen dat het voor mij een verhaal van moed is
+                en dat ik het zo hoopvol vind dat jij uiteindelijk jouw weg hebt
+                gevonden en een soort van mildheid naar je ouders kunt
+                opbrengen. [...] Grote dankbaarheid naar jou en blij dat jij
+                jouw eigen krachtige weg nu bewandeld. Geweldig. Ik moest echt
+                huilen aan het eind toen ik las dat je nu zo'n mooie relatie
+                hebt met een begripvolle man. Gelukkig!
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Rinus van Zandwijk</h3>
+              <p className="reactie-text">
+                Naar aanleiding van het indrukwekkende interview met U op de
+                EO-radio heb ik uw boek gelezen. Ik was zeer onder de indruk van
+                uw verhaal en de daarin getoonde mentale veerkracht.
+                Onbegrijpelijk dat U niet eerder aan deze verstikkende dictatuur
+                kon ontsnappen. Het boek was voor mij – als 'blanke' man in
+                Nederland opgevoed – een bevestiging van de bij mij al vaag
+                bekende vrouwonvriendelijke cultuur op het Turkse platteland. Ik
+                wens U nog veel geluk in het leven toe.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Yvonne Schaap</h3>
+              <p className="reactie-text">
+                Lieve Aysel, wat heb ik een respect voor jou! Ik heb je boek in
+                1 adem uitgelezen. Wat een verhaal, wat een kracht en wat een
+                moed heb jij. Ik ben blij dat je nu gelukkig bent en je eigen
+                leven leidt. Ik wens je alle geluk van de wereld toe.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Guzel</h3>
+              <p className="reactie-text">
+                Hallo Aysel, heb zelf een boek geschreven (heb er 9 jaar over
+                gedaan), maar durf het nog niet naar een uitgeverij te sturen.
+                Graag zou ik met jou in contact willen komen. Wellicht kun jij
+                me wel raad geven en mij in de goede richting sturen. Vol
+                bewondering voor wat jij hebt bereikt.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Jose</h3>
+              <p className="reactie-text">
+                Lieve Aysel, vol bewondering en met diep respect voor het
+                strijden wat jij deed en wat je nu bereikt hebt, heb ik jou boek
+                in 2 dagen uitgelezen. Wat ben je een ontzettende sterke vrouw.
+                Ik ben dan wel een Nederlandse vrouw maar kan me heel goed
+                inleven in jou boek mede doordat ik met een arabische man
+                getrouwd ben...en dat is niet altijd makkelijk.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">S. Kandemir</h3>
+              <p className="reactie-text">
+                Harkulade! Hoi Aysel, ik heb mij deze week ingeschreven in de
+                gemeentelijke bibliotheek. Het eerste boek dat ik uit de pland
+                pakte was die van jouw. Ik keek naar de kaft en zag je naam en
+                dit boek moet ik lezen. Ik lees het al drie dagen en ben al op
+                bladzijde 266. Het boek dat je hebt geschreven is zo interessant
+                dat ik tot vroeg in de ochtend door blijf lezen. Ik vind het
+                knap dat je dit hebt durven schrijven.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Maria</h3>
+              <p className="reactie-text">
+                Beste Aysel, wat een indrukwekkend boek heb je geschreven. Ik
+                heb het in één ruk uitgelezen. Je verhaal heeft me diep geraakt.
+                Ik vind het heel bijzonder hoe je ondanks alles zo positief in
+                het leven staat. Je bent een voorbeeld voor velen.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Janna</h3>
+              <p className="reactie-text">
+                Lieve Aysel, ik heb je boek gelezen en ik ben er stil van. Wat
+                heb jij veel meegemaakt. Ik vind het heel dapper dat je je
+                verhaal hebt gedeeld. Ik hoop dat je boek veel mensen zal
+                inspireren. Ik wens je alle goeds.
+              </p>
+            </div>
+
+            <div className="reactie-card">
+              <h3 className="reactie-author">Feyza</h3>
+              <p className="reactie-text">
+                Selam Aysel abla, ik heb je boek gelezen en ik vond het echt
+                geweldig. Ik heb er veel van geleerd. Ik vind het heel knap dat
+                je zo sterk bent gebleven. Je bent een inspiratie voor mij.
+              </p>
+            </div>
+          </div>
         </div>
       </Section>
 

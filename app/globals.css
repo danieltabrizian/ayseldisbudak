@@ -676,7 +676,7 @@ a {
 }
 
 .reacties-section {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -686,6 +686,52 @@ a {
   font-size: 2.5rem;
   color: var(--color-aysel-purple);
   margin-bottom: 1rem;
+}
+
+.reacties-intro {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  color: var(--color-aysel-purple);
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reacties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.reactie-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reactie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.reactie-author {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  color: var(--color-aysel-red);
+  margin-bottom: 1rem;
+}
+
+.reactie-text {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-aysel-purple);
+  opacity: 0.9;
 }
 
 .reacties-placeholder {
@@ -716,6 +762,19 @@ a {
 
   .book-actions .ml-4 {
     margin-left: 0;
+  }
+
+  .reacties-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .reactie-card {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
   }
 }
 
