@@ -5,134 +5,240 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Section from "@/components/Section";
 import Button from "@/components/Button";
+import Hero from "@/components/Hero";
 
 export default function Diensten() {
   return (
     <main>
       <Header />
 
-      <Section variant="purple" className="diensten-page-header">
-        <div className="diensten-header-content">
-          <span className="diensten-eyebrow">Business & Wealth Mentor</span>
-          <h1 className="diensten-title">Diensten & Verdiensten</h1>
-          <p className="diensten-subtitle">
-            Professionele begeleiding voor ambitieuze vrouwen en een bewezen
-            track record van impact en excellentie.
-          </p>
+      <Hero
+        backgroundImage="/newimages/image4.jpeg"
+        eyebrow="Business & Wealth Mentor"
+        title={
+          <>
+            Mijn <em>Aanbod</em>
+          </>
+        }
+        description={
+          <>
+            Dit is geen gewone mentoring. Dit is een <em>ontwaking</em>. Een{" "}
+            <em>thuiskomen</em> in jezelf. Een herinnering aan wie jij{" "}
+            <em>werkelijk</em> bent.
+          </>
+        }
+      >
+        <div className="flex gap-4 mt-10">
+          <Button href="#mentoring" variant="primary">
+            Lees meer
+          </Button>
+          <Button href="/contact" variant="outline-white">
+            Neem contact op
+          </Button>
         </div>
-      </Section>
+      </Hero>
 
-      {/* Services Section */}
-      <Section variant="default">
-        <div className="diensten-container">
-          <div className="diensten-intro-grid">
-            <div className="diensten-intro-text">
-              <span className="eyebrow text-aysel-red">Mijn Diensten</span>
-              <h2 className="font-heading text-aysel-purple">
-                Als Business & Wealth Mentor
-              </h2>
-              <div className="separator-line"></div>
-              <p className="subtitle-text">
-                In 2024 maakte Aysel Disbudak een carrièreswitch van de
-                zorgsector naar vrouwen empowerment. Sindsdien ondersteunt zij
-                vrouwen als business & wealth mentor met diverse diensten, zoals
-                business coaching, trainingen en zakelijke
-                mentorshipprogramma's.
-              </p>
-            </div>
-            <div className="diensten-intro-image">
+      {/* Main Mentoring Section */}
+      <Section variant="default" id="mentoring">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="relative h-[600px] rounded-lg overflow-hidden shadow-2xl order-2 md:order-1">
               <Image
-                src="/images/portrait.jpg"
+                src="/newimages/image1.jpeg"
                 alt="Aysel Disbudak - Business & Wealth Mentor"
-                width={400}
-                height={500}
-                style={{ width: "100%", height: "auto" }}
-                className="portrait-image"
+                fill
+                className="object-cover"
               />
+            </div>
+            <div className="space-y-6 order-1 md:order-2">
+              <h2 className="font-heading text-4xl md:text-5xl text-[#2E1A34]">
+                1-op-1 Business & Wealth{" "}
+                <em className="italic text-[#C94D4D]">Mentoring</em>
+              </h2>
+              <div className="w-20 h-1 bg-[#C94D4D]"></div>
+              <p className="text-xl text-gray-700 leading-relaxed font-semibold">
+                Voor ondernemers en leiders die diep vanbinnen weten: ik ben
+                hier voor <em>méér</em>.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Meer <em>vrijheid</em>, meer <em>waarheid</em>, meer{" "}
+                <em>impact</em>.
+              </p>
             </div>
           </div>
 
-          <div className="services-showcase">
+          <div className="bg-[#E3EBF0] p-10 md:p-16 rounded-lg mb-12">
+            <h3 className="font-heading text-3xl text-[#2E1A34] mb-8 text-center">
+              In ons <em className="italic text-[#C94D4D]">traject</em>
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
+                <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
+                  💫 Doorbreken we oude patronen
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  Die je <em>klein</em> hielden en je <em>vrijheid</em>{" "}
+                  beperken.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
+                <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
+                  🌱 Helen we wat jou klein hield
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  Zodat je weer <em>volledig</em> kunt zijn wie je bent.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
+                <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
+                  👑 Versterken we jouw leiderschap
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  Vanuit <em>vertrouwen</em> en <em>authentieke kracht</em>.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
+                <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
+                  ✨ Bouwen we een business
+                </h4>
+                <p className="text-gray-700 leading-relaxed">
+                  Die <em>klopt met jouw ziel</em> en jouw waarheid.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center bg-white p-10 rounded-lg shadow-lg max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl font-heading text-[#2E1A34] leading-relaxed mb-6">
+              Ik loop <em className="italic text-[#C94D4D]">naast</em> je. Ik
+              kijk <em className="italic text-[#C94D4D]">met</em> je. Ik voel{" "}
+              <em className="italic text-[#C94D4D]">met</em> je.
+            </p>
+            <p className="text-xl font-heading text-[#C94D4D]">
+              En als het moet, trek ik je omhoog tot jij zelf weer{" "}
+              <em>staat</em>.
+            </p>
+            <div className="mt-8">
+              <Button href="/contact" variant="primary">
+                Start jouw traject
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Additional Services */}
+      <Section variant="light-blue">
+        <div className="diensten-container">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-4xl md:text-5xl text-[#2E1A34] mb-4">
+              Meer <em className="italic text-[#C94D4D]">manieren</em> om samen
+              te werken
+            </h2>
+            <div className="w-20 h-1 bg-[#C94D4D] mx-auto mb-6"></div>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              Naast 1-op-1 mentoring bied ik verschillende vormen van
+              begeleiding aan voor ondernemers en leiders.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="service-highlight">
               <div className="service-number">01</div>
-              <h3 className="font-heading">Business Begeleiding</h3>
-              <p className="font-body">
-                Persoonlijke één-op-één coaching voor vrouwelijke ondernemers
-                die hun bedrijf naar het volgende niveau willen tillen. Focus op
-                strategie, leiderschap en persoonlijke groei.
-              </p>
-              <div className="service-tag">Eén-op-één coaching</div>
-            </div>
-
-            <div className="service-highlight">
-              <div className="service-number">02</div>
-              <h3 className="font-heading">Online Supervisie</h3>
+              <h3 className="font-heading">
+                Online <em>Supervisie</em>
+              </h3>
               <p className="font-body">
                 Digitale begeleiding voor ondernemers, waar je ook bent. Via
-                online sessies krijg je praktische tools en inzichten om je
-                business te laten groeien.
+                online sessies krijg je <em>praktische tools</em> en inzichten
+                om je business te laten groeien.
               </p>
               <div className="service-tag">Voor ondernemers</div>
             </div>
 
             <div className="service-highlight">
-              <div className="service-number">03</div>
-              <h3 className="font-heading">Trainingen Blended Learning</h3>
+              <div className="service-number">02</div>
+              <h3 className="font-heading">
+                Trainingen <em>Blended Learning</em>
+              </h3>
               <p className="font-body">
                 Combinatie van online en offline trainingen zoals "Herontdek
-                Jezelf en Je Bedrijf". Interactief, praktisch en direct
+                Jezelf en Je Bedrijf". <em>Interactief</em>, praktisch en direct
                 toepasbaar op jouw situatie.
               </p>
               <div className="service-tag">Blended learning</div>
             </div>
 
             <div className="service-highlight">
-              <div className="service-number">04</div>
-              <h3 className="font-heading">Jaarlijks Evenement</h3>
+              <div className="service-number">03</div>
+              <h3 className="font-heading">
+                Jaarlijks <em>Evenement</em>
+              </h3>
               <p className="font-body">
                 Exclusieve events rondom belangrijke thema's zoals Nationale
-                Vrouwendag. Een kans om te netwerken, inspiratie op te doen en
-                te groeien met gelijkgestemde vrouwen.
+                Vrouwendag. Een kans om te <em>netwerken</em>, inspiratie op te
+                doen en te groeien met gelijkgestemde vrouwen.
               </p>
               <div className="service-tag">Netwerken & inspiratie</div>
             </div>
 
-            {/* Integrated CTA Box */}
-            <div className="service-cta-box">
-              <div className="service-cta-icon">✨</div>
+            <div className="service-highlight">
+              <div className="service-number">04</div>
               <h3 className="font-heading">
-                Interesse in één van deze diensten?
+                Spreken & <em>Workshops</em>
               </h3>
               <p className="font-body">
-                Laten we kennismaken! Bel of mail voor een vrijblijvend gesprek
-                over hoe ik jou kan helpen.
+                Inspirerende lezingen en workshops voor bedrijven en
+                organisaties. Thema's rond <em>leiderschap</em>,{" "}
+                <em>empowerment</em> en authentieke groei.
               </p>
-              <div className="service-cta-actions">
-                <Button href="/contact" variant="primary-reversed">
-                  Plan een gesprek
-                </Button>
-                <a href="tel:+31204470518" className="phone-link">
-                  📞 +31 20 44 70 518
-                </a>
-              </div>
+              <div className="service-tag">Inspiratie & impact</div>
+            </div>
+          </div>
+
+          <div className="bg-white p-10 rounded-lg shadow-lg text-center mt-12 max-w-3xl mx-auto">
+            <div className="text-5xl mb-4">✨</div>
+            <h3 className="font-heading text-2xl text-[#2E1A34] mb-4">
+              Interesse in{" "}
+              <em className="italic text-[#C94D4D]">samenwerken</em>?
+            </h3>
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              Laten we kennismaken! Bel of mail voor een{" "}
+              <em>vrijblijvend gesprek</em>
+              over hoe ik jou kan helpen.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button href="/contact" variant="primary">
+                Plan een gesprek
+              </Button>
+              <a
+                href="tel:+31204470518"
+                className="text-[#2E1A34] font-semibold hover:text-[#C94D4D] transition-colors"
+              >
+                📞 +31 20 44 70 518
+              </a>
             </div>
           </div>
         </div>
       </Section>
 
       {/* Timeline Section - Achievements */}
-      <Section variant="light-blue">
+      <Section variant="default">
         <div className="diensten-container">
-          <div className="diensten-section-header">
-            <span className="eyebrow text-aysel-red">Mijn Verdiensten</span>
-            <h2 className="font-heading text-aysel-purple">
-              Een Track Record van Impact
+          <div className="text-center mb-12">
+            <span className="inline-block text-sm font-semibold text-[#C94D4D] uppercase tracking-wide mb-4">
+              Mijn Verdiensten
+            </span>
+            <h2 className="font-heading text-4xl md:text-5xl text-[#2E1A34] mb-6">
+              Een Track Record van{" "}
+              <em className="italic text-[#C94D4D]">Impact</em>
             </h2>
-            <div className="separator-line"></div>
-            <p className="subtitle-text">
-              Van de oprichting van belangrijke zorginstellingen tot innovatieve
-              methodieken en bestseller boeken - een overzicht van 25 jaar
-              ondernemerschap en maatschappelijke impact.
+            <div className="w-20 h-1 bg-[#C94D4D] mx-auto mb-6"></div>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              Van de oprichting van belangrijke zorginstellingen tot{" "}
+              <em>innovatieve methodieken</em> en bestseller boeken - een
+              overzicht van <em>25 jaar ondernemerschap</em> en maatschappelijke
+              impact.
             </p>
           </div>
 
@@ -282,16 +388,22 @@ export default function Diensten() {
 
       {/* CTA Section */}
       <Section variant="purple">
-        <div className="cta-content">
-          <h2 className="font-heading text-white mb-6">Klaar om te groeien?</h2>
-          <p className="font-body text-light-blue mb-8">
-            Met bewezen expertise en een passie voor empowerment sta ik klaar om
-            jou te begeleiden naar succes. Neem contact op voor een vrijblijvend
-            kennismakingsgesprek.
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-heading text-4xl md:text-5xl text-white mb-6">
+            Klaar voor de <em className="italic text-[#C94D4D]">volgende</em>{" "}
+            stap?
+          </h2>
+          <p className="text-xl text-[#E3EBF0] leading-relaxed mb-10">
+            Met <em>bewezen expertise</em> en een passie voor empowerment sta ik
+            klaar om jou te begeleiden naar succes. Neem contact op voor een{" "}
+            <em>vrijblijvend kennismakingsgesprek</em>.
           </p>
-          <div className="cta-buttons">
+          <div className="flex gap-4 justify-center flex-wrap">
             <Button href="/contact" variant="primary-reversed">
-              Plan een gratis consult
+              Plan een gesprek
+            </Button>
+            <Button href="/over-mij" variant="outline-white">
+              Lees mijn verhaal
             </Button>
           </div>
         </div>

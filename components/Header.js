@@ -20,9 +20,11 @@ export default function Header() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Diensten & Verdiensten", href: "/diensten" },
-    { name: "Publicaties", href: "/publicaties" },
-    { name: "In de Media", href: "/media" },
+    { name: "Over mij", href: "/over-mij" },
+    { name: "Mijn aanbod", href: "/diensten" },
+    { name: "Masterclass", href: "/masterclass" },
+    { name: "Boeken", href: "/publicaties" },
+    { name: "Media", href: "/media" },
     { name: "Contact", href: "/contact" },
   ];
 

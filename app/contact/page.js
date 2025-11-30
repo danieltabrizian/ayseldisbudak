@@ -5,53 +5,69 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Section from "@/components/Section";
 import Button from "@/components/Button";
+import Hero from "@/components/Hero";
 
 export default function Contact() {
   return (
     <main>
       <Header />
 
-      <Section variant="purple" className="contact-page-header">
-        <div className="contact-header-content">
-          <span className="contact-eyebrow">Neem Contact Op</span>
-          <h1 className="contact-title">Laten we samen werken</h1>
-          <p className="contact-subtitle">
-            Klaar om de volgende stap te zetten? Of je nu vragen hebt over mijn
-            diensten, wilt samenwerken, of gewoon een kennismaking wilt plannen
-            – ik sta voor je klaar.
-          </p>
+      <Hero
+        backgroundImage="/newimages/image1.jpeg"
+        eyebrow="Neem Contact Op"
+        title={
+          <>
+            Laten we <em>samen</em> werken
+          </>
+        }
+        description={
+          <>
+            Klaar om de <em>volgende stap</em> te zetten? Of je nu vragen hebt
+            over mijn diensten, wilt samenwerken, of gewoon een kennismaking
+            wilt plannen – ik sta <em>voor je klaar</em>.
+          </>
+        }
+      >
+        <div className="flex gap-4 mt-10">
+          <Button href="tel:+31204470518" variant="primary">
+            Bel nu
+          </Button>
+          <Button href="mailto:info@ayseldisbudak.nl" variant="outline-white">
+            Stuur een email
+          </Button>
         </div>
-      </Section>
+      </Hero>
 
       <Section variant="default">
         <div className="contact-container">
           <div className="contact-intro-grid">
-            <div className="contact-intro-text">
-              <h2 className="font-heading text-aysel-purple mb-6">
-                Persoonlijke begeleiding op maat
-              </h2>
-              <div className="separator-line"></div>
-              <p className="font-body mb-6">
-                Als Business & Wealth Mentor werk ik graag persoonlijk met
-                vrouwen die klaar zijn voor verandering. Of je nu wilt groeien
-                als ondernemer, financiële vrijheid nastreeft, of je leiderschap
-                wilt versterken – samen maken we een plan dat bij jou past.
-              </p>
-              <p className="font-body mb-8">
-                Neem gerust contact met me op via telefoon of email. Voor
-                dringende zaken ben ik ook bereikbaar op mijn spoednummer. Ik
-                kijk ernaar uit om van je te horen!
-              </p>
-            </div>
             <div className="contact-intro-image">
               <Image
-                src="/images/aysel-red.webp"
+                src="/newimages/image4.jpeg"
                 alt="Aysel Disbudak"
                 width={500}
                 height={600}
                 style={{ width: "100%", height: "auto", borderRadius: "8px" }}
                 className="contact-image"
               />
+            </div>
+            <div className="contact-intro-text">
+              <h2 className="font-heading text-aysel-purple mb-6">
+                <em>Persoonlijke</em> begeleiding op maat
+              </h2>
+              <div className="separator-line"></div>
+              <p className="font-body mb-6">
+                Als Business & Wealth Mentor werk ik graag <em>persoonlijk</em>{" "}
+                met vrouwen die klaar zijn voor <em>verandering</em>. Of je nu
+                wilt groeien als ondernemer, financiële vrijheid nastreeft, of
+                je leiderschap wilt versterken – samen maken we een plan dat{" "}
+                <em>bij jou past</em>.
+              </p>
+              <p className="font-body mb-8">
+                Neem gerust contact met me op via telefoon of email. Voor
+                dringende zaken ben ik ook bereikbaar op mijn spoednummer. Ik
+                kijk ernaar uit om van je te horen!
+              </p>
             </div>
           </div>
 
@@ -115,12 +131,12 @@ export default function Contact() {
       <Section variant="light-blue">
         <div className="cta-content">
           <h2 className="font-heading text-aysel-purple mb-6">
-            Klaar om de eerste stap te zetten?
+            Klaar om de <em>eerste stap</em> te zetten?
           </h2>
           <p className="font-body text-aysel-purple mb-8">
-            Bel me direct voor een vrijblijvend kennismakingsgesprek of stuur
-            een email. Samen kijken we hoe ik jou kan helpen jouw doelen te
-            bereiken.
+            Bel me direct voor een <em>vrijblijvend kennismakingsgesprek</em> of
+            stuur een email. <em>Samen</em> kijken we hoe ik jou kan helpen jouw
+            doelen te bereiken.
           </p>
           <div className="cta-buttons">
             <Button href="tel:+31204470518" variant="primary">
