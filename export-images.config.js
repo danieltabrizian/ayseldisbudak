@@ -3,8 +3,9 @@
  */
 const config = {
   convertFormat: [
-    ["png", "webp"],
+    ["png", "avif"],
     ["jpg", "avif"],
+    ["webp", "avif"],
   ],
 };
 
