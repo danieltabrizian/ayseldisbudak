@@ -229,7 +229,7 @@ export default function Masterclass() {
       >
         <div className="relative min-h-[700px] order-2 lg:order-1">
           <Image
-            src="/newimages/IMG_3132.JPG"
+            src="/newimages/IMG_3132.jpg"
             alt="Aysel Disbudak Spreker"
             fill
             sizes="50vw"

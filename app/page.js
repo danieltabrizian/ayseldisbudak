@@ -88,7 +88,7 @@ export default function Home() {
       <div className="hey-section section-light-blue">
         <div className="hey-image">
           <Image
-            src="newimages/IMG_3132.JPG"
+            src="newimages/IMG_3132.jpg"
             alt="Aysel Disbudak"
             fill
             sizes="50vw"

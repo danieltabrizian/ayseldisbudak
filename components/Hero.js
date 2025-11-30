@@ -24,9 +24,9 @@ export default function Hero({
           <Image
             src={backgroundImage}
             alt="Hero background"
-            width={1920}
-            height={1080}
-            className="absolute inset-0 w-full h-full object-cover"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px"
+            className="object-cover"
             priority
           />
           <div

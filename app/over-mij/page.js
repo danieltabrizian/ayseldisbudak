@@ -137,7 +137,7 @@ export default function OverMij() {
       <section className="relative min-h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/newimages/IMG_3132.JPG"
+            src="/newimages/IMG_3132.jpg"
             alt="Aysel Disbudak"
             fill
             className="object-cover"

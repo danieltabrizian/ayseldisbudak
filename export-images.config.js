@@ -6,6 +6,7 @@ const config = {
     ["png", "avif"],
     ["jpg", "avif"],
     ["webp", "avif"],
+    ["jpeg", "avif"],
   ],
 };
 
