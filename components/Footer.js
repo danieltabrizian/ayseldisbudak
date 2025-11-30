@@ -18,7 +18,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="footer bg-light-blue text-aysel-purple">
+    <footer className="footer section-light-blue text-aysel-purple">
       <div className="container footer-container">
         <div className="footer-content">
           <div className="footer-brand">
