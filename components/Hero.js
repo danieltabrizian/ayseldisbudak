@@ -23,6 +23,7 @@ export default function Hero({
         <div className="absolute inset-0 z-0">
           <Image
             src={backgroundImage}
+            width={1920}
             alt="Hero background"
             fill
             className="object-cover"
