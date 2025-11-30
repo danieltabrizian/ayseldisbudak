@@ -32,17 +32,22 @@ export default function Footer() {
             <h4 className="font-heading">Menu</h4>
             <ul>
               <li>
-                <a href="/">Over Aysel</a>
-              </li>
-
-              <li>
-                <a href="/diensten">Diensten & Verdiensten</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="/publicaties">Publicaties</a>
+                <a href="/over-mij">Over mij</a>
               </li>
               <li>
-                <a href="/media">In de Media</a>
+                <a href="/diensten">Mijn aanbod</a>
+              </li>
+              <li>
+                <a href="/masterclass">Masterclass</a>
+              </li>
+              <li>
+                <a href="/publicaties">Boeken</a>
+              </li>
+              <li>
+                <a href="/media">Media</a>
               </li>
               <li>
                 <a href="/contact">Contact</a>

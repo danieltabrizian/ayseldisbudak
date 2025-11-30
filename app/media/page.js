@@ -343,17 +343,19 @@ export default function Media() {
 
       {/* CTA Section */}
       <Section variant="purple">
-        <div className="cta-content">
-          <h2 className="font-heading text-white mb-6">Wil je meer weten?</h2>
-          <p className="font-body text-light-blue mb-8">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-heading text-white text-4xl md:text-5xl mb-6">
+            Wil je meer weten?
+          </h2>
+          <p className="font-body text-light-blue text-lg md:text-xl mb-10 leading-relaxed">
             Neem contact op voor meer informatie over mijn diensten, boekingen
             voor interviews, of om een samenwerking te bespreken.
           </p>
-          <div className="cta-buttons">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button href="/contact" variant="primary-reversed">
               Neem contact op
             </Button>
-            <Button href="/diensten" variant="outline-white" className="ml-4">
+            <Button href="/diensten" variant="outline-white">
               Bekijk mijn diensten
             </Button>
           </div>
