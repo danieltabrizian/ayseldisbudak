@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Section from "@/components/Section";

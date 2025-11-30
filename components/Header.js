@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
+import Image from "next-export-optimize-images/image";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
