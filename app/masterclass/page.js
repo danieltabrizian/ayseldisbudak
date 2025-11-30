@@ -69,7 +69,7 @@ export default function Masterclass() {
       </div>
       {/* Video Section - Full Width 50/50 */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch w-full bg-[#2E1A34]">
-        <div className="flex flex-col justify-center p-10 md:p-20 lg:px-24 text-white order-2 lg:order-1">
+        <div className="flex flex-col justify-center p-10 md:p-20 lg:px-24 text-white order-1 lg:order-1">
           <span className="inline-block text-sm font-semibold text-[#C94D4D] uppercase tracking-wide mb-4">
             Bekijk de video
           </span>
@@ -110,7 +110,7 @@ export default function Masterclass() {
           </div>
         </div>
 
-        <div className="relative min-h-[700px] order-1 lg:order-2 overflow-hidden">
+        <div className="relative min-h-[700px] order-2 lg:order-2 overflow-hidden">
           <a
             href="https://leadervids.nl/videos/leading-ladies-aysel-disbudak/"
             target="_blank"

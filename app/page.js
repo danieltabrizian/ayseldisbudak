@@ -291,7 +291,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bio-fw-cta">
-              <Button href="/missie" variant="primary">
+              <Button href="/over-mij" variant="primary">
                 Mijn verhaal
               </Button>
               <Button href="/contact" variant="outline" className="ml-4">
@@ -316,8 +316,12 @@ export default function Home() {
             <Button href="/contact" variant="primary-reversed">
               Neem contact op
             </Button>
-            <Button href="/diensten" variant="outline-white" className="ml-4">
-              Bekijk mijn diensten
+            <Button
+              href="/masterclass"
+              variant="outline-white"
+              className="ml-4"
+            >
+              Bekijk mijn masterclass
             </Button>
           </div>
         </div>

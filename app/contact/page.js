@@ -39,44 +39,19 @@ export default function Contact() {
       </Hero>
 
       <Section variant="default">
-        <div className="contact-container">
-          <div className="contact-intro-grid">
-            <div className="contact-intro-image">
-              <Image
-                src="/newimages/image4.jpeg"
-                alt="Aysel Disbudak"
-                width={500}
-                height={600}
-                style={{ width: "100%", height: "auto", borderRadius: "8px" }}
-                className="contact-image"
-              />
-            </div>
-            <div className="contact-intro-text">
-              <h2 className="font-heading text-aysel-purple mb-6">
-                <em>Persoonlijke</em> begeleiding op maat
-              </h2>
-              <div className="separator-line"></div>
-              <p className="font-body mb-6">
-                Als Business & Wealth Mentor werk ik graag <em>persoonlijk</em>{" "}
-                met vrouwen die klaar zijn voor <em>verandering</em>. Of je nu
-                wilt groeien als ondernemer, financiële vrijheid nastreeft, of
-                je leiderschap wilt versterken – samen maken we een plan dat{" "}
-                <em>bij jou past</em>.
-              </p>
-              <p className="font-body mb-8">
-                Neem gerust contact met me op via telefoon of email. Voor
-                dringende zaken ben ik ook bereikbaar op mijn spoednummer. Ik
-                kijk ernaar uit om van je te horen!
-              </p>
-            </div>
-          </div>
-
-          <div className="contact-grid">
-            <div className="contact-card">
-              <div className="card-icon">📍</div>
-              <h3 className="font-heading text-aysel-red">Bezoekadres</h3>
-              <div className="thin-separator"></div>
-              <p className="font-body">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Contact Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-20">
+            {/* Address Card */}
+            <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 text-center border border-gray-100">
+              <div className="text-5xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                📍
+              </div>
+              <h3 className="font-heading text-aysel-red text-xl mb-4">
+                Bezoekadres
+              </h3>
+              <div className="w-12 h-px bg-aysel-red/30 mx-auto mb-4"></div>
+              <p className="font-body text-aysel-purple/80 leading-relaxed">
                 Keurenplein 53
                 <br />
                 1069 CD Amsterdam
@@ -85,43 +60,108 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="contact-card">
-              <div className="card-icon">📞</div>
-              <h3 className="font-heading text-aysel-red">Telefoon</h3>
-              <div className="thin-separator"></div>
-              <p className="font-body">
-                <strong>Algemeen:</strong>
+            {/* Phone Card */}
+            <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 text-center border border-gray-100">
+              <div className="text-5xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                📞
+              </div>
+              <h3 className="font-heading text-aysel-red text-xl mb-4">
+                Telefoon
+              </h3>
+              <div className="w-12 h-px bg-aysel-red/30 mx-auto mb-4"></div>
+              <p className="font-body text-aysel-purple/80 leading-relaxed">
+                <strong className="text-aysel-purple">Algemeen:</strong>
                 <br />
-                <a href="tel:+31204470518">+31 20 44 70 518</a>
+                <a
+                  href="tel:+31204470518"
+                  className="text-aysel-purple hover:text-aysel-red transition-colors duration-300 underline decoration-aysel-red/30 hover:decoration-aysel-red"
+                >
+                  +31 20 44 70 518
+                </a>
                 <br />
                 <br />
-                <strong>Bij spoed:</strong>
+                <strong className="text-aysel-purple">Bij spoed:</strong>
                 <br />
-                <a href="tel:+31645200022">06 45 20 00 22</a>
+                <a
+                  href="tel:+31645200022"
+                  className="text-aysel-purple hover:text-aysel-red transition-colors duration-300 underline decoration-aysel-red/30 hover:decoration-aysel-red"
+                >
+                  06 45 20 00 22
+                </a>
               </p>
             </div>
 
-            <div className="contact-card">
-              <div className="card-icon">✉️</div>
-              <h3 className="font-heading text-aysel-red">Email</h3>
-              <div className="thin-separator"></div>
-              <p className="font-body">
+            {/* Email Card */}
+            <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 text-center border border-gray-100">
+              <div className="text-5xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                ✉️
+              </div>
+              <h3 className="font-heading text-aysel-red text-xl mb-4">
+                Email
+              </h3>
+              <div className="w-12 h-px bg-aysel-red/30 mx-auto mb-4"></div>
+              <p className="font-body text-aysel-purple/80 leading-relaxed">
                 Voor vragen en afspraken:
                 <br />
-                <a href="mailto:info@ayseldisbudak.nl">info@ayseldisbudak.nl</a>
+                <a
+                  href="mailto:info@ayseldisbudak.nl"
+                  className="text-aysel-purple hover:text-aysel-red transition-colors duration-300 underline decoration-aysel-red/30 hover:decoration-aysel-red break-all"
+                >
+                  info@ayseldisbudak.nl
+                </a>
               </p>
             </div>
 
-            <div className="contact-card">
-              <div className="card-icon">🕒</div>
-              <h3 className="font-heading text-aysel-red">Openingstijden</h3>
-              <div className="thin-separator"></div>
-              <p className="font-body">
-                <strong>Ma - Do:</strong> 9:00 - 17:00
+            {/* Hours Card */}
+            <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 text-center border border-gray-100">
+              <div className="text-5xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                🕒
+              </div>
+              <h3 className="font-heading text-aysel-red text-xl mb-4">
+                Openingstijden
+              </h3>
+              <div className="w-12 h-px bg-aysel-red/30 mx-auto mb-4"></div>
+              <p className="font-body text-aysel-purple/80 leading-relaxed">
+                <strong className="text-aysel-purple">Ma - Do:</strong> 9:00 -
+                17:00
                 <br />
-                <strong>Vrijdag:</strong> 9:00 - 15:00
+                <strong className="text-aysel-purple">Vrijdag:</strong> 9:00 -
+                15:00
                 <br />
-                <strong>Weekend:</strong> Gesloten
+                <strong className="text-aysel-purple">Weekend:</strong> Gesloten
+              </p>
+            </div>
+          </div>
+
+          {/* Personal Guidance Section */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="relative order-2 lg:order-1">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/newimages/image4.jpeg"
+                  alt="Aysel Disbudak"
+                  width={600}
+                  height={750}
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="font-heading text-aysel-purple text-4xl md:text-5xl mb-6 leading-tight">
+                <em>Persoonlijke</em> begeleiding op maat
+              </h2>
+              <div className="w-16 h-0.5 bg-aysel-red mb-8"></div>
+              <p className="font-body text-aysel-purple/80 text-lg leading-relaxed mb-6">
+                Als Business & Wealth Mentor werk ik graag <em>persoonlijk</em>{" "}
+                met vrouwen die klaar zijn voor <em>verandering</em>. Of je nu
+                wilt groeien als ondernemer, financiële vrijheid nastreeft, of
+                je leiderschap wilt versterken – samen maken we een plan dat{" "}
+                <em>bij jou past</em>.
+              </p>
+              <p className="font-body text-aysel-purple/80 text-lg leading-relaxed">
+                Neem gerust contact met me op via telefoon of email. Voor
+                dringende zaken ben ik ook bereikbaar op mijn spoednummer. Ik
+                kijk ernaar uit om van je te horen!
               </p>
             </div>
           </div>
@@ -129,24 +169,20 @@ export default function Contact() {
       </Section>
 
       <Section variant="light-blue">
-        <div className="cta-content">
-          <h2 className="font-heading text-aysel-purple mb-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-heading text-aysel-purple text-4xl md:text-5xl mb-6 leading-tight">
             Klaar om de <em>eerste stap</em> te zetten?
           </h2>
-          <p className="font-body text-aysel-purple mb-8">
+          <p className="font-body text-aysel-purple/80 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">
             Bel me direct voor een <em>vrijblijvend kennismakingsgesprek</em> of
             stuur een email. <em>Samen</em> kijken we hoe ik jou kan helpen jouw
             doelen te bereiken.
           </p>
-          <div className="cta-buttons">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button href="tel:+31204470518" variant="primary">
               Bel nu
             </Button>
-            <Button
-              href="mailto:info@ayseldisbudak.nl"
-              variant="accent"
-              className="ml-4"
-            >
+            <Button href="mailto:info@ayseldisbudak.nl" variant="accent">
               Stuur een email
             </Button>
           </div>

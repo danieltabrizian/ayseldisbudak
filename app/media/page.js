@@ -20,13 +20,17 @@ export default function Media() {
       />
 
       {/* YouTube Section */}
-      <div className="vision-section section-default">
-        <div className="vision-content">
-          <span className="eyebrow">YOUTUBE – @AyselDisbudak</span>
-          <h2 className="vision-title">
-            Ruimte voor <em>échte</em> verhalen
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch w-full ">
+        <div className="flex flex-col justify-center p-10 md:p-20 lg:px-24 order-1 lg:order-1">
+          <span className="inline-block text-sm font-semibold text-[#C94D4D] uppercase tracking-[0.3em] mb-4">
+            YOUTUBE – @AyselDisbudak
+          </span>
+          <h2 className="font-heading text-[clamp(2.5rem,5vw,3.5rem)] text-[#2E1A34] mb-6 leading-tight">
+            Ruimte voor <em className="italic text-[#C94D4D]">échte</em>{" "}
+            verhalen
           </h2>
-          <div className="vision-text">
+          <div className="w-20 h-1 bg-[#C94D4D] mb-8"></div>
+          <div className="space-y-4 text-lg text-gray-700 leading-relaxed mb-8">
             <p>
               Op mijn YouTube-kanaal geef ik ruimte aan <em>échte</em> verhalen.
               Niet het perfecte plaatje, maar de <em>waarheid</em>.
@@ -41,11 +45,11 @@ export default function Media() {
               YouTube is voor mij geen platform, maar een plek van{" "}
               <em>verbinding</em> en <em>bewustwording</em>.
             </p>
-            <p className="font-semibold text-lg mt-6">
+            <p className="font-semibold text-xl text-[#2E1A34] mt-6">
               Jouw waarheid is jouw kracht.
             </p>
           </div>
-          <div className="vision-cta">
+          <div>
             <Button
               href="https://www.youtube.com/@AyselDisbudak"
               variant="primary"
@@ -56,7 +60,7 @@ export default function Media() {
             </Button>
           </div>
         </div>
-        <div className="vision-image relative flex items-center justify-center p-20">
+        <div className="relative flex items-center justify-center p-6 md:p-20  order-2 lg:order-2 min-h-[400px] lg:min-h-[600px]">
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/newimages/ayselytthumbnail.jpg"
@@ -65,6 +69,13 @@ export default function Media() {
               sizes="50vw"
               style={{ objectFit: "cover" }}
             />
+            {/* YouTube Badge */}
+            <div className="absolute top-4 right-4 bg-[#C94D4D] text-white px-4 py-2 rounded-lg text-sm font-bold shadow-lg flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              YouTube
+            </div>
             <a
               href="https://www.youtube.com/@AyselDisbudak"
               target="_blank"

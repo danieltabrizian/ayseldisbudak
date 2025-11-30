@@ -35,7 +35,7 @@ export default function Hero({
       )}
 
       {/* Content */}
-      <div className="container relative z-10 py-24 md:py-32">
+      <div className="container relative z-10 py-32 md:py-32">
         <div className="max-w-4xl">
           {eyebrow && (
             <span className="inline-block text-sm font-semibold text-[#E3EBF0] uppercase tracking-[0.3em] mb-6">
