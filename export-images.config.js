@@ -8,6 +8,7 @@ const config = {
     ["webp", "avif"],
     ["jpeg", "avif"],
   ],
+  generateFormats: ["avif"], // comment if you also want webp for compatibility
 };
 
 module.exports = config;

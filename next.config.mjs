@@ -6,7 +6,8 @@ const nextConfig = withExportImages({
   output: "export",
   trailingSlash: true,
   images: {
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    deviceSizes: [640, 1080, 1200, 1920],
+    imageSizes: [64, 128, 384],
   },
 
   pageExtensions: ["js", "jsx", "ts", "tsx"],
