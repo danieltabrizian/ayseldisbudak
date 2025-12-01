@@ -28,8 +28,101 @@ export default function Publicaties() {
         </div>
       </Hero>
 
-      {/* Book 1: De nootjes van het huwelijk */}
+      {/* Book 1: (G)een Echte Fatima */}
       <Section variant="default" id="boeken">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-12 max-w-6xl mx-auto">
+          <div className="space-y-6 order-2 md:order-1">
+            <span className="inline-block text-sm font-semibold text-[#C94D4D] uppercase tracking-wide">
+              Nieuw boek
+            </span>
+            <h2 className="font-heading text-4xl md:text-5xl text-[#2E1A34]">
+              (G)een Echte Fatima
+            </h2>
+
+            <p className="text-lg leading-relaxed text-gray-700">
+              Op mijn veertiende werd ik uitgehuwelijkt. Op mijn zestiende
+              opnieuw. Terwijl andere meisjes droomden over school, liefde en
+              vrijheid, vocht ik om simpelweg te mogen bestaan. Ik werd
+              tienermoeder, stond er alleen voor met drie kinderen en zorgde
+              daarnaast voor mijn gehandicapte broer. Ik leefde in een wereld
+              van angst, controle en geweld, een leven als een gevangenis zonder
+              tralies.
+            </p>
+
+            <p className="text-lg leading-relaxed text-gray-700">
+              Mijn ex-partner probeerde mij twee keer te vermoorden. Vier keer
+              keek ik de dood in de ogen. En toch brak ik niet. Iets in mij
+              bleef vechten.
+            </p>
+
+            <p className="text-lg leading-relaxed text-gray-700">
+              <em>Geen Echte Fatima</em> is het verhaal van een meisje dat werd
+              het zwijgen opgelegd, en een vrouw die besloot te spreken. Van
+              onderdrukking naar bewustwording. Van pijn naar kracht. Van
+              stilzwijgen naar stem.
+            </p>
+
+            <div className="grid grid-cols-2 gap-4 py-6 border-t border-b border-gray-200">
+              <div>
+                <span className="text-sm text-gray-500">Verschenen</span>
+                <span className="block font-semibold text-gray-900">
+                  December 2025
+                </span>
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Pagina's</span>
+                <span className="block font-semibold text-gray-900">
+                  272 pagina's pocket
+                </span>
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Prijs</span>
+                <span className="block font-semibold text-gray-900">
+                  €22,95
+                </span>
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Verzendkosten</span>
+                <span className="block font-semibold text-gray-900">€7,50</span>
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">ISBN</span>
+                <span className="block font-semibold text-gray-900">
+                  9072219082
+                </span>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                href="https://www.geenechtefatima.nl"
+                variant="primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bestel dit boek
+              </Button>
+              <Button href="/contact" variant="outline">
+                Neem contact op
+              </Button>
+            </div>
+          </div>
+          <div className="flex justify-center md:justify-end order-1 md:order-2">
+            <div>
+              <Image
+                src="/images/geenechtefatimaboek.webp"
+                alt="(G)een Echte Fatima"
+                width={300}
+                height={450}
+                className="shadow-lg rounded-lg w-auto h-auto max-w-[300px]"
+              />
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Book 2: De nootjes van het huwelijk */}
+      <Section variant="light-blue">
         <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-8 md:gap-12 max-w-6xl mx-auto">
           <div className="flex justify-center md:justify-start">
             <div>
@@ -125,8 +218,8 @@ export default function Publicaties() {
         </div>
       </Section>
 
-      {/* Book 2: Durven doen wat je raakt */}
-      <Section variant="light-blue">
+      {/* Book 3: Durven doen wat je raakt */}
+      <Section variant="default">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-12 max-w-6xl mx-auto">
           <div className="space-y-6 order-2 md:order-1">
             <span className="inline-block text-sm font-semibold text-[#C94D4D] uppercase tracking-wide">
