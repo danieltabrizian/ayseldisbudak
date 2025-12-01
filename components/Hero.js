@@ -11,7 +11,7 @@ export default function Hero({
   gradientFrom = "from-[#2E1A34]/95",
   gradientVia = "via-[#2E1A34]/85",
   gradientTo = "to-[#2E1A34]/70",
-  minHeight = "min-h-[70vh]",
+  minHeight = "min-h-[700px]",
   showBottomGradient = true,
   fadeColor = "#E3EBF0",
 }) {
