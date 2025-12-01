@@ -20,42 +20,81 @@ export default function Footer() {
   return (
     <footer className="footer section-light-blue text-aysel-purple">
       <div className="container footer-container">
-        <div className="footer-content">
-          <div className="footer-brand">
-            <h3 className="font-heading">Aysel Disbudak</h3>
-            <p className="font-body">
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="flex-1">
+            <h3 className="font-heading text-2xl mb-4">Aysel Disbudak</h3>
+            <p className="font-body text-lg">
               Empowering women to reach their full potential.
             </p>
           </div>
 
-          <div className="footer-links">
-            <h4 className="font-heading">Menu</h4>
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/over-mij">Over mij</a>
-              </li>
-              <li>
-                <a href="/diensten">Mijn aanbod</a>
-              </li>
-              <li>
-                <a href="/masterclass">Masterclass</a>
-              </li>
-              <li>
-                <a href="/publicaties">Boeken</a>
-              </li>
-              <li>
-                <a href="/media">Media</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
-              </li>
-            </ul>
+          <div>
+            <h4 className="font-heading text-xl mb-4">Menu</h4>
+            <div className="flex gap-8">
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/over-mij"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Over mij
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/diensten"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Mijn aanbod
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/masterclass"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Masterclass
+                  </a>
+                </li>
+              </ul>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/publicaties"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Boeken
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/media"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Media
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contact"
+                    className="hover:text-[#C94D4D] transition-colors"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="footer-contact">
+          {/* <div className="footer-contact">
             <h4 className="font-heading">Contact</h4>
             <p className="address">
               Keurenplein 53
@@ -83,7 +122,7 @@ export default function Footer() {
               <br />
               vrijdag tot 15:00 uur
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div className="footer-bottom">
