@@ -161,7 +161,7 @@ export default function Masterclass() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  💫 Blokkades doorbreken
+                  Blokkades doorbreken
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Herken en doorbreek de <em>patronen</em> die je tegenhouden om
@@ -170,7 +170,7 @@ export default function Masterclass() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  💪 Zelfvertrouwen versterken
+                  Zelfvertrouwen versterken
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Bouw een <em>onwrikbaar vertrouwen</em> in jezelf en jouw
@@ -179,7 +179,7 @@ export default function Masterclass() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  🧭 Richting creëren
+                  Richting creëren
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Ontwikkel een <em>heldere visie</em> en strategie die aansluit
@@ -188,7 +188,7 @@ export default function Masterclass() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  ✨ Succes op jouw voorwaarden
+                  Succes op jouw voorwaarden
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Bouw een <em>succesvol bedrijf</em> dat past bij jouw leven,

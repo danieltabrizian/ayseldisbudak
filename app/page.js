@@ -15,7 +15,7 @@ export default function Home() {
       <section className="hero-fw">
         <div className="hero-fw-background">
           <Image
-            src="/newimages/image2.jpeg"
+            src="/newimages/image1_hq.jpg"
             alt="Aysel Disbudak - Business & Wealth Mentor"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
@@ -187,7 +187,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="border-l-4 border-[#C94D4D] pl-6">
               <h3 className="font-heading text-2xl text-white mb-2">
-                💼 Business Coaching
+                Business Coaching
               </h3>
               <p className="text-white/80 leading-relaxed">
                 Strategische begeleiding voor vrouwelijke ondernemers die willen
@@ -197,7 +197,7 @@ export default function Home() {
 
             <div className="border-l-4 border-[#C94D4D] pl-6">
               <h3 className="font-heading text-2xl text-white mb-2">
-                💰 Wealth Mentorship
+                Wealth Mentorship
               </h3>
               <p className="text-white/80 leading-relaxed">
                 Begeleiding naar financiële onafhankelijkheid en het slim
@@ -207,7 +207,7 @@ export default function Home() {
 
             <div className="border-l-4 border-[#C94D4D] pl-6">
               <h3 className="font-heading text-2xl text-white mb-2">
-                ✨ Spreker & Auteur
+                Spreker & Auteur
               </h3>
               <p className="text-white/80 leading-relaxed">
                 Inspirerende lezingen en publicaties, waaronder "De nootjes van
@@ -262,7 +262,7 @@ export default function Home() {
           <div className="bio-fw-content-side">
             <div className="bio-fw-badge">Over Mij</div>
             <h2 className="bio-fw-title">
-              Van gehandicaptenzorg tot <em>business mentor</em>
+              Van zorg en hulpverlener tot <em>business mentor</em>
             </h2>
             <div className="bio-fw-text">
               <p>
