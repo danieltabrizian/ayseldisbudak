@@ -74,7 +74,7 @@ export default function Diensten() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  💫 Doorbreken we oude patronen
+                  Doorbreken we oude patronen
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Die je <em>klein</em> hielden en je <em>vrijheid</em>{" "}
@@ -83,7 +83,7 @@ export default function Diensten() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  🌱 Helen we wat jou klein hield
+                  Helen we wat jou klein hield
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Zodat je weer <em>volledig</em> kunt zijn wie je bent.
@@ -91,7 +91,7 @@ export default function Diensten() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  👑 Versterken we jouw leiderschap
+                  Versterken we jouw leiderschap
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Vanuit <em>vertrouwen</em> en <em>authentieke kracht</em>.
@@ -99,7 +99,7 @@ export default function Diensten() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#C94D4D]">
                 <h4 className="font-heading text-xl text-[#2E1A34] mb-3">
-                  ✨ Bouwen we een business
+                  Bouwen we een business
                 </h4>
                 <p className="text-gray-700 leading-relaxed">
                   Die <em>klopt met jouw ziel</em> en jouw waarheid.
@@ -197,7 +197,7 @@ export default function Diensten() {
           </div>
 
           <div className="bg-white p-10 rounded-lg shadow-lg text-center mt-12 max-w-3xl mx-auto">
-            <div className="text-5xl mb-4">✨</div>
+            {/* <div className="text-5xl mb-4">✨</div> */}
             <h3 className="font-heading text-2xl text-[#2E1A34] mb-4">
               Interesse in{" "}
               <em className="italic text-[#C94D4D]">samenwerken</em>?
@@ -212,10 +212,10 @@ export default function Diensten() {
                 Plan een gesprek
               </Button>
               <a
-                href="tel:+31204470518"
+                href="tel:06 38399470"
                 className="text-[#2E1A34] font-semibold hover:text-[#C94D4D] transition-colors"
               >
-                📞 +31 20 44 70 518
+                📞 06 38399470
               </a>
             </div>
           </div>

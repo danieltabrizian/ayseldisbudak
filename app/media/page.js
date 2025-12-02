@@ -162,6 +162,16 @@ export default function Media() {
               magazine. Een interview over het herwinnen van je kracht en het
               bouwen van een leven op jouw voorwaarden.
             </p>
+            <div className="mt-6">
+              <Button
+                href="https://www.linda.nl/column/yesim-candan-gedwongen-huwelijk-geweld/"
+                variant="primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Lees het artikel
+              </Button>
+            </div>
           </div>
           <div className="media-image-wrapper">
             <Image
@@ -175,34 +185,8 @@ export default function Media() {
         </div>
       </Section>
 
-      {/* Media Item 2: RTL Late Night */}
-      <Section variant="light-blue">
-        <div className="media-item">
-          <div className="media-image-wrapper">
-            <Image
-              src="/appearances/rtllatenight.avif"
-              alt="RTL Late Night interview"
-              width={600}
-              height={400}
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-          <div className="media-content">
-            <span className="media-category">RTL Late Night</span>
-            <h2 className="media-item-title">(G)een Echte Fatima</h2>
-            <div className="separator-line"></div>
-            <p className="media-description">
-              In deze uitzending van RTL Late Night ging ik in gesprek over
-              identiteit, culturele verwachtingen en de kracht om je eigen weg
-              te vinden. Een eerlijk verhaal over het doorbreken van patronen en
-              het omarmen van je <em>waarheid</em>.
-            </p>
-          </div>
-        </div>
-      </Section>
-
       {/* Media Item 3: NPO Radio 1 */}
-      <Section variant="default">
+      <Section variant="light-blue">
         <div className="media-item media-item-reversed">
           <div className="media-content">
             <span className="media-category">NPO Radio 1</span>

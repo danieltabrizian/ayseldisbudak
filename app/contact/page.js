@@ -50,7 +50,7 @@ export default function Contact() {
                 />
               </div>
             </div>
-            
+
             <div className="order-1 lg:order-2">
               <h2 className="font-heading text-aysel-purple text-4xl md:text-5xl mb-6 leading-tight">
                 <em>Persoonlijke</em> begeleiding op maat
@@ -68,45 +68,96 @@ export default function Contact() {
                 dringende zaken ben ik ook bereikbaar op mijn spoednummer. Ik
                 kijk ernaar uit om van je te horen!
               </p>
-              
-              {/* Contact Cards - Compact Version */}
+
+              {/* Contact Cards - Modern Design */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* Email Card */}
-                <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100">
-                  <div className="text-3xl mb-3 transition-transform duration-300 group-hover:scale-110">
-                    ✉️
-                  </div>
-                  <h3 className="font-heading text-aysel-red text-lg mb-2">
-                    Email
-                  </h3>
-                  <div className="w-8 h-px bg-aysel-red/30 mb-3"></div>
-                  <p className="font-body text-aysel-purple/80 text-sm leading-relaxed">
-                    <a
-                      href="mailto:info@ayseldisbudak.nl"
-                      className="text-aysel-purple hover:text-aysel-red transition-colors duration-300 underline decoration-aysel-red/30 hover:decoration-aysel-red break-all"
-                    >
+                <a
+                  href="mailto:info@ayseldisbudak.nl"
+                  className="group relative bg-gradient-to-br from-[#2E1A34] to-[#3d2447] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-[#C94D4D]/20 rounded-full blur-2xl"></div>
+                  <div className="relative">
+                    <div className="w-12 h-12 bg-[#C94D4D]/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#C94D4D]/30 transition-colors">
+                      <span className="text-2xl">✉️</span>
+                    </div>
+                    <h3 className="font-heading text-white text-lg mb-2">
+                      Email
+                    </h3>
+                    <p className="font-body text-white/70 text-sm leading-relaxed break-all group-hover:text-white/90 transition-colors">
                       info@ayseldisbudak.nl
-                    </a>
-                  </p>
-                </div>
+                    </p>
+                  </div>
+                </a>
 
                 {/* Hours Card */}
-                <div className="group bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100">
-                  <div className="text-3xl mb-3 transition-transform duration-300 group-hover:scale-110">
-                    🕒
+                <div className="group relative bg-gradient-to-br from-[#E3EBF0] to-[#d5e3ed] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden">
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-[#C94D4D]/10 rounded-full blur-2xl"></div>
+                  <div className="relative">
+                    <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                      <span className="text-2xl">🕒</span>
+                    </div>
+                    <h3 className="font-heading text-[#2E1A34] text-lg mb-3">
+                      Openingstijden
+                    </h3>
+                    <div className="space-y-1 text-[#2E1A34]/80 text-sm">
+                      <div className="flex justify-between">
+                        <span className="font-semibold">Ma - Do</span>
+                        <span>9:00 - 17:00</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">Vrijdag</span>
+                        <span>9:00 - 15:00</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">Weekend</span>
+                        <span>Gesloten</span>
+                      </div>
+                    </div>
                   </div>
-                  <h3 className="font-heading text-aysel-red text-lg mb-2">
-                    Openingstijden
-                  </h3>
-                  <div className="w-8 h-px bg-aysel-red/30 mb-3"></div>
-                  <p className="font-body text-aysel-purple/80 text-sm leading-relaxed">
-                    <strong className="text-aysel-purple">Ma - Do:</strong> 9:00 - 17:00
-                    <br />
-                    <strong className="text-aysel-purple">Vrij:</strong> 9:00 - 15:00
-                    <br />
-                    <strong className="text-aysel-purple">Weekend:</strong> Gesloten
-                  </p>
                 </div>
+
+                {/* Instagram Card */}
+                <a
+                  href="https://www.instagram.com/therealayseldisbudak/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative bg-gradient-to-br from-[#C94D4D] to-[#a83e3e] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full blur-2xl"></div>
+                  <div className="relative">
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-white/30 transition-colors">
+                      <span className="text-2xl">📷</span>
+                    </div>
+                    <h3 className="font-heading text-white text-lg mb-2">
+                      Instagram
+                    </h3>
+                    <p className="font-body text-white/80 text-sm leading-relaxed group-hover:text-white transition-colors">
+                      @therealayseldisbudak
+                    </p>
+                  </div>
+                </a>
+
+                {/* LinkedIn Card */}
+                <a
+                  href="https://www.linkedin.com/in/aysel-disbudak-76bb2435/?locale=nl_NL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative bg-gradient-to-br from-[#0077B5] to-[#005885] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full blur-2xl"></div>
+                  <div className="relative">
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-white/30 transition-colors">
+                      <span className="text-2xl">💼</span>
+                    </div>
+                    <h3 className="font-heading text-white text-lg mb-2">
+                      LinkedIn
+                    </h3>
+                    <p className="font-body text-white/80 text-sm leading-relaxed group-hover:text-white transition-colors">
+                      Aysel Disbudak
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

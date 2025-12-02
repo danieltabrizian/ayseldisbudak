@@ -18,7 +18,7 @@ export default function Home() {
             src="/newimages/image1_hq.jpg"
             alt="Aysel Disbudak - Business & Wealth Mentor"
             fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            style={{ objectFit: "cover", objectPosition: "top" }}
             priority
           />
           <div className="hero-fw-overlay"></div>
@@ -26,7 +26,15 @@ export default function Home() {
         <div className="container hero-fw-content">
           <h1 className="hero-fw-title">
             <strong>
-              Van <em>kracht</em> naar <em>leiderschap</em>.
+              Van{" "}
+              <em>
+                <b>kracht</b>
+              </em>{" "}
+              naar{" "}
+              <em>
+                <b>leiderschap</b>
+              </em>
+              .
               <br />
               Bouw het bedrijf dat bij jouw past.
             </strong>
