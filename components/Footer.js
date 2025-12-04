@@ -130,6 +130,26 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Aysel Disbudak. All rights
             reserved.
           </p>
+          <p className="mt-2 text-sm text-aysel-purple/60">
+            Website door{" "}
+            <a
+              href="https://breazylabs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#C94D4D] transition-colors underline"
+            >
+              BreazyLabs
+            </a>{" "}
+            &middot; Marketing door{" "}
+            <a
+              href="https://vamous.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#C94D4D] transition-colors underline"
+            >
+              Vamous
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -204,8 +204,7 @@ export default function Diensten() {
             </h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
               Laten we kennismaken! Bel of mail voor een{" "}
-              <em>vrijblijvend gesprek</em>
-              over hoe ik jou kan helpen.
+              <em>vrijblijvend gesprek</em> over hoe ik jou kan helpen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button href="/contact" variant="primary">

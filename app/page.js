@@ -133,8 +133,8 @@ export default function Home() {
             <div className="hey-offerings">
               <p>
                 Op deze website vind je mijn boeken, masterclasses, mentoring,
-                podcast, YouTube en tools. Alles wat ik doe, is gebouwd op één
-                fundament:
+                podcast, YouTube en tools. Alles wat ik doe, is gebaseerd op één
+                van deze fundamenten:
               </p>
               <div className="hey-values">
                 <span>Empowerment</span>
